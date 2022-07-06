@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  margin: 50px;
+}
+
+.student-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid cornflowerblue;
+  margin: 30px;
+  padding: 20px;
+}
